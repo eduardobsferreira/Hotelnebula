@@ -1,0 +1,187 @@
+
+[
+  {
+    "_id": "hsp001",
+    "nome": "Samuel Elvis",
+    "cpf": "123.456.789-00",
+    "email": "Samuel.Elvis@email.com",
+    "telefone": "+55 11 98765-4321",
+    "data_nascimento": "2007-10-27",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "logradouro": "Rua Tito, 322",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01345-100",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "Comercial",
+      "andar_alto": true,
+      "fumante": false,
+      "cama": "king"
+    },
+    "data_cadastro": { "$date": "2025-04-30T00:00:00.000Z" },
+    "ativo": true
+  },
+  {
+    "_id": "hsp002",
+    "nome": "Mayara Ellen",
+    "cpf": "987.654.321-00",
+    "email": "Mayara.Ellen@email.com",
+    "telefone": "+55 11 91234-5678",
+    "data_nascimento": "2003-04-01",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "logradouro": "Rua Carlos, 412",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01345-100",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "Comercial",
+      "andar_alto": true,
+      "fumante": false,
+      "cama": "king"
+    },
+    "data_cadastro": { "$date": "2025-04-30T00:00:00.000Z" },
+    "ativo": true
+  },
+  {
+    "_id": "hsp003",
+    "nome": "Breno Farias",
+    "cpf": "111.222.333-44",
+    "email": "Breno.Farias@email.com",
+    "telefone": "+55 11 92345-6789",
+    "data_nascimento": "2007-10-02",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "logradouro": "Rua Girassol, 426",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01345-010",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "Executiva",
+      "andar_alto": true,
+      "fumante": false,
+      "cama": "king"
+    },
+    "data_cadastro": { "$date": "2025-04-30T00:00:00.000Z" },
+    "ativo": true
+  },
+  {
+    "_id": "hsp004",
+    "nome": "Richard Kayan",
+    "cpf": "444.555.666-77",
+    "email": "Richard.Kayan@email.com",
+    "telefone": "+55 11 93456-7890",
+    "data_nascimento": "2002-12-01",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "logradouro": "Rua Guanabara, 412",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01345-020",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "Suite",
+      "andar_alto": true,
+      "fumante": false,
+      "cama": "king"
+    },
+    "data_cadastro": { "$date": "2025-04-30T00:00:00.000Z" },
+    "ativo": true
+  },
+  {
+    "_id": "hsp005",
+    "nome": "Cauan Morária",
+    "cpf": "777.888.999-00",
+    "email": "cauan.moraria@email.com",
+    "telefone": "+55 11 94567-8901",
+    "data_nascimento": "2006-09-08",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "logradouro": "Rua Domingues, 366",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01345-050",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "Comercial",
+      "andar_alto": true,
+      "fumante": false,
+      "cama": "king"
+    },
+    "data_cadastro": { "$date": "2025-04-30T00:00:00.000Z" },
+    "ativo": true
+  },
+  {
+    "_id": "hsp006",
+    "nome": "Julia Costa",
+    "cpf": "222.333.444-55",
+    "email": "Julia.Costa@email.com",
+    "telefone": "+55 11 95678-9012",
+    "data_nascimento": "2005-06-01",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "logradouro": "Rua Cláudio, 206",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01345-070",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "Suite",
+      "andar_alto": true,
+      "fumante": false,
+      "cama": "king"
+    },
+    "data_cadastro": { "$date": "2025-04-30T00:00:00.000Z" },
+    "ativo": true
+  },
+
+{
+    "_id": "hsp007",
+    "nome": "Victor Wilker",
+    "cpf": "245.678.867-75",
+    "email": "Victor.Wilker@email.com",
+    "telefone": "+55 11 96777-8032",
+    "data_nascimento": "2002-04-23",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "logradouro": "Rua Rosário, 377",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "02346-040",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "Suite",
+      "andar_alto": true,
+      "fumante": false,
+      "cama": "king"
+    },
+    "data_cadastro": { "$date": "2025-04-30T00:00:00.000Z" },
+    "ativo": true
+  }
+
+// Reservas 
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

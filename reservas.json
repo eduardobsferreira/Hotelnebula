@@ -1,0 +1,26 @@
+{
+  "_id": "ObjectId('rsv1777902746543')",
+  "hospede_id": "ObjectId('hsp001')",
+  "hospede_snapshot": {
+    "nome": "Samuel Elvis",
+    "email": "Samuel.Elvis@email.com",
+    "telefone": "+55 66 98751-1234"
+  },
+  "quarto_id": "ObjectId('qrt106')",
+  "quarto_snapshot": {
+    "numero": "106",
+    "tipo": "comercial",
+    "preco_diaria": 130
+  },
+  "data_checkin": "2026-05-11",
+  "data_checkout": "2026-05-14",
+  "num_noites": 3,
+  "num_hospedes": 1,
+  "valor_total": 390,
+  "status": "confirmada",
+  "canal": "site_proprio",
+  "codigo_reserva": "HN-2025-00143",
+  "observacoes": null,
+  "data_criacao": "2026-05-04T13:52:26.543Z",
+  "data_atualizacao": "2026-05-04T13:52:26.543Z"
+}

@@ -1,0 +1,894 @@
+[
+  {
+    "_id": "ObjectId('qrt103')",
+    "numero": "103",
+    "andar": 1,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 2,
+    "preco_diaria": 150,
+    "descricao": "Quarto comercial prático com vista para pátio interno, ideal para viagens de negócios.",
+    "comodidades": [
+      "cofre",
+      "frigobar",
+      "tv 32\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "pátio interno",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 28
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/103/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/103/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T10:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt106')",
+    "numero": "106",
+    "andar": 1,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 1,
+    "preco_diaria": 130,
+    "descricao": "Quarto comercial prático com vista para pátio interno, ideal para viagens de negócios.",
+    "comodidades": [
+      "ar-condicionado",
+      "cofre",
+      "escrivaninha",
+      "frigobar",
+      "secador de cabelo"
+    ],
+    "caracteristicas": {
+      "vista": "pátio interno",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 24
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/106/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/106/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T07:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt119')",
+    "numero": "119",
+    "andar": 1,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 2,
+    "preco_diaria": 110,
+    "descricao": "Quarto comercial prático com vista para pátio interno, ideal para viagens de negócios.",
+    "comodidades": [
+      "ar-condicionado",
+      "cofre",
+      "tv 32\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "pátio interno",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 28
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/119/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/119/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T06:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt204')",
+    "numero": "204",
+    "andar": 2,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 2,
+    "preco_diaria": 150,
+    "descricao": "Quarto comercial prático com vista para estacionamento, ideal para viagens de negócios.",
+    "comodidades": [
+      "ar-condicionado",
+      "escrivaninha",
+      "frigobar",
+      "secador de cabelo"
+    ],
+    "caracteristicas": {
+      "vista": "estacionamento",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 18
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/204/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/204/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T09:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt207')",
+    "numero": "207",
+    "andar": 2,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 2,
+    "preco_diaria": 210,
+    "descricao": "Suíte espaçosa com vista para jardim e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira",
+      "cafeteira",
+      "cofre",
+      "roupão",
+      "tv 42\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": true,
+      "varanda": true,
+      "area_m2": 29
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/207/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/207/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T09:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt208')",
+    "numero": "208",
+    "andar": 2,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 1,
+    "preco_diaria": 150,
+    "descricao": "Quarto comercial prático com vista para rua, ideal para viagens de negócios.",
+    "comodidades": [
+      "ar-condicionado",
+      "escrivaninha",
+      "frigobar",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "rua",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 21
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/208/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/208/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T09:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt210')",
+    "numero": "210",
+    "andar": 2,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 2,
+    "preco_diaria": 200,
+    "descricao": "Suíte espaçosa com vista para jardim e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira",
+      "cofre",
+      "frigobar",
+      "tv 42\"",
+      "varanda"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 38
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/210/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/210/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-03T09:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt213')",
+    "numero": "213",
+    "andar": 2,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 1,
+    "preco_diaria": 130,
+    "descricao": "Quarto comercial prático com vista para rua, ideal para viagens de negócios.",
+    "comodidades": [
+      "cofre",
+      "escrivaninha",
+      "frigobar",
+      "tv 32\""
+    ],
+    "caracteristicas": {
+      "vista": "rua",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 28
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/213/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/213/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-03T06:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt217')",
+    "numero": "217",
+    "andar": 2,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 2,
+    "preco_diaria": 120,
+    "descricao": "Quarto comercial prático com vista para pátio interno, ideal para viagens de negócios.",
+    "comodidades": [
+      "ar-condicionado",
+      "frigobar",
+      "tv 32\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "pátio interno",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 26
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/217/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/217/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T08:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt302')",
+    "numero": "302",
+    "andar": 3,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 1,
+    "preco_diaria": 120,
+    "descricao": "Quarto comercial prático com vista para pátio interno, ideal para viagens de negócios.",
+    "comodidades": [
+      "cofre",
+      "escrivaninha",
+      "frigobar",
+      "secador de cabelo"
+    ],
+    "caracteristicas": {
+      "vista": "pátio interno",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 19
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/302/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/302/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-03T09:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt305')",
+    "numero": "305",
+    "andar": 3,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 2,
+    "preco_diaria": 110,
+    "descricao": "Quarto comercial prático com vista para rua, ideal para viagens de negócios.",
+    "comodidades": [
+      "ar-condicionado",
+      "escrivaninha",
+      "frigobar",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "rua",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 28
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/305/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/305/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T06:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt306')",
+    "numero": "306",
+    "andar": 3,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 2,
+    "preco_diaria": 120,
+    "descricao": "Quarto comercial prático com vista para pátio interno, ideal para viagens de negócios.",
+    "comodidades": [
+      "cofre",
+      "frigobar",
+      "secador de cabelo",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "pátio interno",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 19
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/306/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/306/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T10:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt314')",
+    "numero": "314",
+    "andar": 3,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 2,
+    "preco_diaria": 200,
+    "descricao": "Suíte espaçosa com vista para jardim e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira",
+      "cofre",
+      "frigobar",
+      "roupão",
+      "tv 42\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 28
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/314/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/314/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T10:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt317')",
+    "numero": "317",
+    "andar": 3,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 2,
+    "preco_diaria": 200,
+    "descricao": "Suíte espaçosa com vista para a Vila Madalena e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "cafeteira",
+      "frigobar",
+      "roupão",
+      "secador de cabelo",
+      "varanda"
+    ],
+    "caracteristicas": {
+      "vista": "vila madalena",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 28
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/317/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/317/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T10:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt318')",
+    "numero": "318",
+    "andar": 3,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 2,
+    "preco_diaria": 140,
+    "descricao": "Quarto comercial prático com vista para estacionamento, ideal para viagens de negócios.",
+    "comodidades": [
+      "ar-condicionado",
+      "frigobar",
+      "secador de cabelo",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "estacionamento",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 23
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/318/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/318/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T06:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt319')",
+    "numero": "319",
+    "andar": 3,
+    "tipo": "comercial",
+    "categoria": "economico",
+    "capacidade_max": 2,
+    "preco_diaria": 100,
+    "descricao": "Quarto comercial prático com vista para rua, ideal para viagens de negócios.",
+    "comodidades": [
+      "cofre",
+      "secador de cabelo",
+      "tv 32\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "rua",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 21
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/319/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/319/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T07:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt401')",
+    "numero": "401",
+    "andar": 4,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 3,
+    "preco_diaria": 190,
+    "descricao": "Suíte espaçosa com vista para rua e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira",
+      "secador de cabelo",
+      "tv 42\"",
+      "varanda",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "rua",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 38
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/401/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/401/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T06:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt404')",
+    "numero": "404",
+    "andar": 4,
+    "tipo": "executivo",
+    "categoria": "premium",
+    "capacidade_max": 2,
+    "preco_diaria": 230,
+    "descricao": "Quarto executivo premium com vista panorâmica para jardim e acabamento sofisticado.",
+    "comodidades": [
+      "cafeteira Nespresso",
+      "frigobar",
+      "sala de estar",
+      "secador de cabelo",
+      "som ambiente",
+      "tv 50\""
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 54
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/404/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/404/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T09:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt407')",
+    "numero": "407",
+    "andar": 4,
+    "tipo": "executivo",
+    "categoria": "premium",
+    "capacidade_max": 2,
+    "preco_diaria": 210,
+    "descricao": "Quarto executivo premium com vista panorâmica para jardim e acabamento sofisticado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira de hidromassagem",
+      "cafeteira Nespresso",
+      "cofre",
+      "frigobar",
+      "roupão",
+      "som ambiente"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": true,
+      "area_m2": 56
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/407/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/407/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T10:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt409')",
+    "numero": "409",
+    "andar": 4,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 3,
+    "preco_diaria": 190,
+    "descricao": "Suíte espaçosa com vista para jardim e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira",
+      "frigobar",
+      "secador de cabelo",
+      "tv 42\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": true,
+      "area_m2": 38
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/409/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/409/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T08:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt411')",
+    "numero": "411",
+    "andar": 4,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 3,
+    "preco_diaria": 200,
+    "descricao": "Suíte espaçosa com vista para rua e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira",
+      "cofre",
+      "frigobar",
+      "secador de cabelo",
+      "tv 42\"",
+      "varanda",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "rua",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 31
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/411/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/411/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-03T08:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt413')",
+    "numero": "413",
+    "andar": 4,
+    "tipo": "executivo",
+    "categoria": "premium",
+    "capacidade_max": 2,
+    "preco_diaria": 220,
+    "descricao": "Quarto executivo premium com vista panorâmica para jardim e acabamento sofisticado.",
+    "comodidades": [
+      "cafeteira Nespresso",
+      "frigobar",
+      "roupão",
+      "secador de cabelo",
+      "som ambiente",
+      "tv 50\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": true,
+      "varanda": true,
+      "area_m2": 49
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/413/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/413/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T10:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt503')",
+    "numero": "503",
+    "andar": 5,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 3,
+    "preco_diaria": 180,
+    "descricao": "Suíte espaçosa com vista para rua e conforto ampliado.",
+    "comodidades": [
+      "banheira",
+      "cofre",
+      "frigobar",
+      "roupão",
+      "secador de cabelo",
+      "varanda",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "rua",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 30
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/503/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/503/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T09:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt509')",
+    "numero": "509",
+    "andar": 5,
+    "tipo": "executivo",
+    "categoria": "premium",
+    "capacidade_max": 4,
+    "preco_diaria": 210,
+    "descricao": "Quarto executivo premium com vista panorâmica para jardim e acabamento sofisticado.",
+    "comodidades": [
+      "ar-condicionado",
+      "cofre",
+      "frigobar",
+      "roupão",
+      "som ambiente",
+      "tv 50\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": true,
+      "varanda": true,
+      "area_m2": 52
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/509/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/509/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T07:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt510')",
+    "numero": "510",
+    "andar": 5,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 3,
+    "preco_diaria": 180,
+    "descricao": "Suíte espaçosa com vista para jardim e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira",
+      "cofre",
+      "roupão",
+      "secador de cabelo",
+      "tv 42\"",
+      "varanda",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 35
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/510/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/510/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-03T09:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt516')",
+    "numero": "516",
+    "andar": 5,
+    "tipo": "suite",
+    "categoria": "intermediario",
+    "capacidade_max": 3,
+    "preco_diaria": 170,
+    "descricao": "Suíte espaçosa com vista para rua e conforto ampliado.",
+    "comodidades": [
+      "ar-condicionado",
+      "cafeteira",
+      "frigobar",
+      "secador de cabelo",
+      "varanda",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "rua",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 34
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/516/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/516/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-03T06:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt604')",
+    "numero": "604",
+    "andar": 6,
+    "tipo": "executivo",
+    "categoria": "premium",
+    "capacidade_max": 2,
+    "preco_diaria": 220,
+    "descricao": "Quarto executivo premium com vista panorâmica para jardim e acabamento sofisticado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira de hidromassagem",
+      "cafeteira Nespresso",
+      "cofre",
+      "frigobar",
+      "roupão",
+      "varanda privativa",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 56
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/604/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/604/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T06:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt612')",
+    "numero": "612",
+    "andar": 6,
+    "tipo": "executivo",
+    "categoria": "premium",
+    "capacidade_max": 4,
+    "preco_diaria": 240,
+    "descricao": "Quarto executivo premium com vista panorâmica para jardim e acabamento sofisticado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira de hidromassagem",
+      "cofre",
+      "frigobar",
+      "secador de cabelo",
+      "tv 50\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 60
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/612/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/612/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-03T08:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt704')",
+    "numero": "704",
+    "andar": 7,
+    "tipo": "executivo",
+    "categoria": "premium",
+    "capacidade_max": 2,
+    "preco_diaria": 240,
+    "descricao": "Quarto executivo premium com vista panorâmica para a Vila Madalena e acabamento sofisticado.",
+    "comodidades": [
+      "ar-condicionado",
+      "banheira de hidromassagem",
+      "cafeteira Nespresso",
+      "roupão",
+      "tv 50\"",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "vila madalena",
+      "banheira": true,
+      "varanda": true,
+      "area_m2": 59
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/704/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/704/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-02T10:00:00Z"
+  },
+  {
+    "_id": "ObjectId('qrt716')",
+    "numero": "716",
+    "andar": 7,
+    "tipo": "executivo",
+    "categoria": "premium",
+    "capacidade_max": 4,
+    "preco_diaria": 230,
+    "descricao": "Quarto executivo premium com vista panorâmica para a Vila Madalena e acabamento sofisticado.",
+    "comodidades": [
+      "ar-condicionado",
+      "cafeteira Nespresso",
+      "cofre",
+      "frigobar",
+      "roupão",
+      "tv 50\"",
+      "varanda privativa",
+      "wifi"
+    ],
+    "caracteristicas": {
+      "vista": "vila madalena",
+      "banheira": false,
+      "varanda": true,
+      "area_m2": 53
+    },
+    "status": "disponivel",
+    "fotos": [
+      "https://storage.seuhotel.com/quartos/716/foto1.jpg",
+      "https://storage.seuhotel.com/quartos/716/foto2.jpg"
+    ],
+    "ultima_limpeza": "2026-05-01T08:00:00Z"
+  }
+]

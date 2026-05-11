@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "69fe394db0402c6a41a80001"
+  },
+  "id": "ObjectId('pgt1777902746603')",
+  "id_reserva": "ObjectId('rsv1777902746545')",
+  "id_hospede": "ObjectId('hsp003')",
+  "nome_hospede": "Carlos Henrique",
+  "valor_total": 440,
+  "valor_pago": 440,
+  "desconto": 0,
+  "forma_pagamento": "pix",
+  "parcelas": 1,
+  "status_pagamento": "pago",
+  "data_pagamento": "2026-05-16",
+  "observacoes": "Pagamento via PIX confirmado automaticamente"
+},
+{
+  "_id": {
+    "$oid": "69fe394db0402c6a41a7ffff"
+  },
+  "id": "ObjectId('pgt1777902746601')",
+  "id_reserva": "ObjectId('rsv1777902746543')",
+  "id_hospede": "ObjectId('hsp001')",
+  "nome_hospede": "Samuel Elvis",
+  "valor_total": 390,
+  "valor_pago": 390,
+  "desconto": 0,
+  "forma_pagamento": "cartão de crédito",
+  "parcelas": 2,
+  "status_pagamento": "pago",
+  "data_pagamento": "2026-05-14",
+  "observacoes": "Pagamento realizado no check-out"
+},
+{
+  "_id": {
+    "$oid": "69fe394db0402c6a41a80000"
+  },
+  "id": "ObjectId('pgt1777902746602')",
+  "id_reserva": "ObjectId('rsv1777902746544')",
+  "id_hospede": "ObjectId('hsp002')",
+  "nome_hospede": "Ana Beatriz",
+  "valor_total": 900,
+  "valor_pago": 900,
+  "desconto": 0,
+  "forma_pagamento": "cartão de débito",
+  "parcelas": 1,
+  "status_pagamento": "pago",
+  "data_pagamento": "2026-05-20",
+  "observacoes": "Pagamento à vista no check-out"
+}]

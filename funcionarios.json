@@ -1,0 +1,584 @@
+[
+  {
+    "_id": "ObjectId('fnc001')",
+    "nome": "Beatriz Lima",
+    "cpf": "727.694.051-95",
+    "email": "beatriz.lima@hotelnebula.com",
+    "telefone": "+55 31 98440-6060",
+    "cargo": "gerente geral",
+    "departamento": "administração",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "08:00",
+      "saida": "17:00"
+    },
+    "permissoes": [
+      "all"
+    ],
+    "data_admissao": "2021-10-24",
+    "salario": 11725.02,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc002')",
+    "nome": "Mariana Nascimento",
+    "cpf": "245.028.198-32",
+    "email": "mariana.nascimento@hotelnebula.com",
+    "telefone": "+55 51 99643-5434",
+    "cargo": "gerente de recepção",
+    "departamento": "recepção",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "16:00"
+    },
+    "permissoes": [
+      "checkin",
+      "checkout",
+      "reservas_visualizar",
+      "reservas_editar",
+      "relatorios",
+      "gestao_equipe"
+    ],
+    "data_admissao": "2023-06-01",
+    "salario": 6495.95,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc003')",
+    "nome": "Diego Ferreira",
+    "cpf": "970.676.789-43",
+    "email": "diego.ferreira@hotelnebula.com",
+    "telefone": "+55 21 99587-3218",
+    "cargo": "recepcionista",
+    "departamento": "recepção",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "checkin",
+      "checkout",
+      "reservas_visualizar",
+      "reservas_editar"
+    ],
+    "data_admissao": "2020-02-17",
+    "salario": 3122.21,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc004')",
+    "nome": "Bruno Silva",
+    "cpf": "625.779.583-40",
+    "email": "bruno.silva@hotelnebula.com",
+    "telefone": "+55 91 95581-5643",
+    "cargo": "recepcionista",
+    "departamento": "recepção",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "checkin",
+      "checkout",
+      "reservas_visualizar",
+      "reservas_editar"
+    ],
+    "data_admissao": "2023-07-16",
+    "salario": 2873.1,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc005')",
+    "nome": "Renata Martins",
+    "cpf": "332.168.269-96",
+    "email": "renata.martins@hotelnebula.com",
+    "telefone": "+55 21 94596-7462",
+    "cargo": "recepcionista",
+    "departamento": "recepção",
+    "turno": {
+      "tipo": "noite",
+      "entrada": "23:00",
+      "saida": "07:00"
+    },
+    "permissoes": [
+      "checkin",
+      "checkout",
+      "reservas_visualizar",
+      "reservas_editar"
+    ],
+    "data_admissao": "2023-02-10",
+    "salario": 3616.97,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc006')",
+    "nome": "Lucas Araújo",
+    "cpf": "462.255.407-09",
+    "email": "lucas.araujo@hotelnebula.com",
+    "telefone": "+55 11 96569-5497",
+    "cargo": "recepcionista",
+    "departamento": "recepção",
+    "turno": {
+      "tipo": "noite",
+      "entrada": "23:00",
+      "saida": "07:00"
+    },
+    "permissoes": [
+      "checkin",
+      "checkout",
+      "reservas_visualizar",
+      "reservas_editar"
+    ],
+    "data_admissao": "2024-04-10",
+    "salario": 3144.77,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc007')",
+    "nome": "Thiago Pereira",
+    "cpf": "660.718.468-54",
+    "email": "thiago.pereira@hotelnebula.com",
+    "telefone": "+55 31 98509-8337",
+    "cargo": "concierge",
+    "departamento": "recepção",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "08:00",
+      "saida": "17:00"
+    },
+    "permissoes": [
+      "reservas_visualizar",
+      "servicos_externos",
+      "transporte"
+    ],
+    "data_admissao": "2022-01-15",
+    "salario": 3821.02,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc008')",
+    "nome": "Lucas Ribeiro",
+    "cpf": "224.164.867-13",
+    "email": "lucas.ribeiro@hotelnebula.com",
+    "telefone": "+55 11 97211-5517",
+    "cargo": "governanta",
+    "departamento": "governança",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "quartos_status",
+      "lavanderia",
+      "estoque",
+      "gestao_equipe"
+    ],
+    "data_admissao": "2022-12-11",
+    "salario": 4027.45,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc009')",
+    "nome": "Mariana Moreira",
+    "cpf": "068.784.262-00",
+    "email": "mariana.moreira@hotelnebula.com",
+    "telefone": "+55 71 95639-6223",
+    "cargo": "camareira",
+    "departamento": "governança",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "quartos_status",
+      "lavanderia"
+    ],
+    "data_admissao": "2022-01-18",
+    "salario": 2104.9,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc010')",
+    "nome": "Pedro Nunes",
+    "cpf": "878.854.211-47",
+    "email": "pedro.nunes@hotelnebula.com",
+    "telefone": "+55 41 93985-9990",
+    "cargo": "camareira",
+    "departamento": "governança",
+    "turno": {
+      "tipo": "noite",
+      "entrada": "23:00",
+      "saida": "07:00"
+    },
+    "permissoes": [
+      "quartos_status",
+      "lavanderia"
+    ],
+    "data_admissao": "2021-06-01",
+    "salario": 1920.2,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc011')",
+    "nome": "Vitor Lima",
+    "cpf": "057.236.940-90",
+    "email": "vitor.lima@hotelnebula.com",
+    "telefone": "+55 41 96265-9420",
+    "cargo": "camareira",
+    "departamento": "governança",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "quartos_status",
+      "lavanderia"
+    ],
+    "data_admissao": "2025-11-05",
+    "salario": 1920.85,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc012')",
+    "nome": "Bruno Martins",
+    "cpf": "809.589.897-02",
+    "email": "bruno.martins@hotelnebula.com",
+    "telefone": "+55 61 99874-7301",
+    "cargo": "camareira",
+    "departamento": "governança",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "quartos_status",
+      "lavanderia"
+    ],
+    "data_admissao": "2023-02-23",
+    "salario": 2261.99,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc013')",
+    "nome": "Elisa Nascimento",
+    "cpf": "597.505.744-27",
+    "email": "elisa.nascimento@hotelnebula.com",
+    "telefone": "+55 21 94840-3400",
+    "cargo": "camareira",
+    "departamento": "governança",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "quartos_status",
+      "lavanderia"
+    ],
+    "data_admissao": "2024-10-17",
+    "salario": 1838.13,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc014')",
+    "nome": "Amanda Pereira",
+    "cpf": "394.207.329-32",
+    "email": "amanda.pereira@hotelnebula.com",
+    "telefone": "+55 91 98472-6630",
+    "cargo": "chef de cozinha",
+    "departamento": "alimentos e bebidas",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "06:00",
+      "saida": "14:00"
+    },
+    "permissoes": [
+      "cardapio",
+      "estoque",
+      "pedidos"
+    ],
+    "data_admissao": "2025-07-13",
+    "salario": 6904.05,
+    "ativo": false
+  },
+  {
+    "_id": "ObjectId('fnc015')",
+    "nome": "Juliana Martins",
+    "cpf": "282.633.333-00",
+    "email": "juliana.martins@hotelnebula.com",
+    "telefone": "+55 91 94225-4269",
+    "cargo": "auxiliar de cozinha",
+    "departamento": "alimentos e bebidas",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "pedidos",
+      "estoque_visualizar"
+    ],
+    "data_admissao": "2020-05-08",
+    "salario": 2016.41,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc016')",
+    "nome": "Vitor Barbosa",
+    "cpf": "575.845.453-27",
+    "email": "vitor.barbosa@hotelnebula.com",
+    "telefone": "+55 11 99350-7941",
+    "cargo": "auxiliar de cozinha",
+    "departamento": "alimentos e bebidas",
+    "turno": {
+      "tipo": "tarde",
+      "entrada": "15:00",
+      "saida": "23:00"
+    },
+    "permissoes": [
+      "pedidos",
+      "estoque_visualizar"
+    ],
+    "data_admissao": "2024-08-23",
+    "salario": 2048.11,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc017')",
+    "nome": "Mariana Pereira",
+    "cpf": "489.795.526-29",
+    "email": "mariana.pereira@hotelnebula.com",
+    "telefone": "+55 11 98998-1553",
+    "cargo": "auxiliar de cozinha",
+    "departamento": "alimentos e bebidas",
+    "turno": {
+      "tipo": "noite",
+      "entrada": "23:00",
+      "saida": "07:00"
+    },
+    "permissoes": [
+      "pedidos",
+      "estoque_visualizar"
+    ],
+    "data_admissao": "2025-06-20",
+    "salario": 1669.46,
+    "ativo": false
+  },
+  {
+    "_id": "ObjectId('fnc018')",
+    "nome": "Lucas Martins",
+    "cpf": "636.730.708-78",
+    "email": "lucas.martins@hotelnebula.com",
+    "telefone": "+55 31 97185-1778",
+    "cargo": "garçom",
+    "departamento": "alimentos e bebidas",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "pedidos",
+      "cardapio_visualizar"
+    ],
+    "data_admissao": "2021-10-21",
+    "salario": 2358.18,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc019')",
+    "nome": "Henrique Nascimento",
+    "cpf": "297.216.485-74",
+    "email": "henrique.nascimento@hotelnebula.com",
+    "telefone": "+55 61 93388-5372",
+    "cargo": "garçom",
+    "departamento": "alimentos e bebidas",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "pedidos",
+      "cardapio_visualizar"
+    ],
+    "data_admissao": "2022-07-14",
+    "salario": 2788.5,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc020')",
+    "nome": "Bruno Nascimento",
+    "cpf": "914.191.944-02",
+    "email": "bruno.nascimento@hotelnebula.com",
+    "telefone": "+55 61 97942-3048",
+    "cargo": "garçom",
+    "departamento": "alimentos e bebidas",
+    "turno": {
+      "tipo": "noite",
+      "entrada": "23:00",
+      "saida": "07:00"
+    },
+    "permissoes": [
+      "pedidos",
+      "cardapio_visualizar"
+    ],
+    "data_admissao": "2025-07-13",
+    "salario": 2564.72,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc021')",
+    "nome": "João Pereira",
+    "cpf": "277.780.095-28",
+    "email": "joao.pereira@hotelnebula.com",
+    "telefone": "+55 81 95831-2876",
+    "cargo": "técnico de manutenção",
+    "departamento": "manutenção",
+    "turno": {
+      "tipo": "tarde",
+      "entrada": "15:00",
+      "saida": "23:00"
+    },
+    "permissoes": [
+      "ordens_servico",
+      "quartos_manutencao"
+    ],
+    "data_admissao": "2020-10-18",
+    "salario": 2876.55,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc022')",
+    "nome": "Marcelo Santos",
+    "cpf": "178.139.239-01",
+    "email": "marcelo.santos@hotelnebula.com",
+    "telefone": "+55 71 94579-3340",
+    "cargo": "técnico de manutenção",
+    "departamento": "manutenção",
+    "turno": {
+      "tipo": "noite",
+      "entrada": "23:00",
+      "saida": "07:00"
+    },
+    "permissoes": [
+      "ordens_servico",
+      "quartos_manutencao"
+    ],
+    "data_admissao": "2025-05-11",
+    "salario": 2571.82,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc023')",
+    "nome": "Larissa Rocha",
+    "cpf": "245.425.997-44",
+    "email": "larissa.rocha@hotelnebula.com",
+    "telefone": "+55 81 95425-7333",
+    "cargo": "segurança",
+    "departamento": "segurança",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "acesso_cameras",
+      "registro_ocorrencias"
+    ],
+    "data_admissao": "2022-02-26",
+    "salario": 2357.9,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc024')",
+    "nome": "Mariana Araújo",
+    "cpf": "601.809.358-87",
+    "email": "mariana.araujo@hotelnebula.com",
+    "telefone": "+55 71 96652-3526",
+    "cargo": "segurança",
+    "departamento": "segurança",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "acesso_cameras",
+      "registro_ocorrencias"
+    ],
+    "data_admissao": "2022-01-14",
+    "salario": 2736.57,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc025')",
+    "nome": "Henrique Ribeiro",
+    "cpf": "185.895.847-47",
+    "email": "henrique.ribeiro@hotelnebula.com",
+    "telefone": "+55 61 92953-5965",
+    "cargo": "segurança",
+    "departamento": "segurança",
+    "turno": {
+      "tipo": "tarde",
+      "entrada": "15:00",
+      "saida": "23:00"
+    },
+    "permissoes": [
+      "acesso_cameras",
+      "registro_ocorrencias"
+    ],
+    "data_admissao": "2023-09-21",
+    "salario": 2379.36,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc026')",
+    "nome": "Daniel Pereira",
+    "cpf": "455.858.807-05",
+    "email": "daniel.pereira@hotelnebula.com",
+    "telefone": "+55 81 92581-5760",
+    "cargo": "auxiliar administrativo",
+    "departamento": "administração",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "08:00",
+      "saida": "17:00"
+    },
+    "permissoes": [
+      "financeiro_visualizar",
+      "relatorios_basicos"
+    ],
+    "data_admissao": "2021-01-02",
+    "salario": 3088.65,
+    "ativo": true
+  },
+  {
+    "_id": "ObjectId('fnc027')",
+    "nome": "Igor Carvalho",
+    "cpf": "016.431.535-79",
+    "email": "igor.carvalho@hotelnebula.com",
+    "telefone": "+55 31 95278-1205",
+    "cargo": "auxiliar administrativo",
+    "departamento": "administração",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "08:00",
+      "saida": "17:00"
+    },
+    "permissoes": [
+      "financeiro_visualizar",
+      "relatorios_basicos"
+    ],
+    "data_admissao": "2021-11-24",
+    "salario": 2589.34,
+    "ativo": true
+  }
+]

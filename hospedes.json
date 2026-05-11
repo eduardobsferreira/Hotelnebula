@@ -1,0 +1,843 @@
+
+[
+  {
+    "id": "hsp001",
+    "nome": "Samuel Elvis",
+    "cpf": "000.000.001-01",
+    "email": "Samuel.Elvis@email.com",
+    "telefone": "+55 66 98751-1234",
+    "data_nascimento": "1988-05-18",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua das Flores, 541",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "11011-264",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": true,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-01-23T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp002",
+    "nome": "Ana Beatriz",
+    "cpf": "000.000.002-02",
+    "email": "Ana.Beatriz@email.com",
+    "telefone": "+55 51 94114-1271",
+    "data_nascimento": "2001-01-19",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Paulista, 108",
+      "bairro": "Jardim América",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "84397-202",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-02-19T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp003",
+    "nome": "Carlos Henrique",
+    "cpf": "000.000.003-03",
+    "email": "Carlos.Henrique@email.com",
+    "telefone": "+55 93 96860-1308",
+    "data_nascimento": "1999-05-15",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua da Consolação, 201",
+      "bairro": "Vila Nova",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "75919-561",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-03-13T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp004",
+    "nome": "Fernanda Lima",
+    "cpf": "000.000.004-04",
+    "email": "Fernanda.Lima@email.com",
+    "telefone": "+55 57 95731-1345",
+    "data_nascimento": "2004-04-08",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua 7 de Setembro, 683",
+      "bairro": "Santo André",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "25244-566",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês",
+        "Espanhol"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-04-22T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp005",
+    "nome": "Lucas Oliveira",
+    "cpf": "000.000.005-05",
+    "email": "Lucas.Oliveira@email.com",
+    "telefone": "+55 81 96345-1382",
+    "data_nascimento": "2000-05-25",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Brasil, 962",
+      "bairro": "Boa Vista",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "cep": "79577-162",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": true,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-05-09T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp006",
+    "nome": "Julia Santos",
+    "cpf": "000.000.006-06",
+    "email": "Julia.Santos@email.com",
+    "telefone": "+55 47 92934-1419",
+    "data_nascimento": "1983-02-24",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua XV de Novembro, 496",
+      "bairro": "Liberdade",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "cep": "30049-612",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-06-02T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp007",
+    "nome": "Rafael Costa",
+    "cpf": "000.000.007-07",
+    "email": "Rafael.Costa@email.com",
+    "telefone": "+55 54 92478-1456",
+    "data_nascimento": "1998-12-10",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Getúlio Vargas, 322",
+      "bairro": "Moema",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "cep": "15493-760",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Espanhol"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": false,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-07-15T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp008",
+    "nome": "Mariana Alves",
+    "cpf": "000.000.008-08",
+    "email": "Mariana.Alves@email.com",
+    "telefone": "+55 46 99935-1493",
+    "data_nascimento": "1990-04-21",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua Marechal Deodoro, 998",
+      "bairro": "Pinheiros",
+      "cidade": "Recife",
+      "estado": "PE",
+      "cep": "36981-946",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-08-21T03:00:00.000Z\"}",
+    "ativo": false
+  },
+  {
+    "id": "hsp009",
+    "nome": "Pedro Ferreira",
+    "cpf": "000.000.009-09",
+    "email": "Pedro.Ferreira@email.com",
+    "telefone": "+55 53 97865-1530",
+    "data_nascimento": "1980-04-03",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Dom Pedro II, 597",
+      "bairro": "Lapa",
+      "cidade": "Manaus",
+      "estado": "AM",
+      "cep": "18284-892",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": true,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-09-03T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp010",
+    "nome": "Camila Rodrigues",
+    "cpf": "000.000.010-10",
+    "email": "Camila.Rodrigues@email.com",
+    "telefone": "+55 23 96170-1567",
+    "data_nascimento": "1979-10-18",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua das Acácias, 623",
+      "bairro": "Copacabana",
+      "cidade": "Brasília",
+      "estado": "DF",
+      "cep": "32829-941",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-10-22T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp011",
+    "nome": "Gustavo Martins",
+    "cpf": "000.000.011-11",
+    "email": "Gustavo.Martins@email.com",
+    "telefone": "+55 97 93561-1604",
+    "data_nascimento": "1983-08-25",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua das Flores, 611",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "59199-378",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-11-09T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp012",
+    "nome": "Larissa Pereira",
+    "cpf": "000.000.012-12",
+    "email": "Larissa.Pereira@email.com",
+    "telefone": "+55 90 95142-1641",
+    "data_nascimento": "1988-07-03",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Paulista, 972",
+      "bairro": "Jardim América",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "74544-979",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-12-17T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp013",
+    "nome": "Diego Nascimento",
+    "cpf": "000.000.013-13",
+    "email": "Diego.Nascimento@email.com",
+    "telefone": "+55 33 93787-1678",
+    "data_nascimento": "1983-01-14",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua da Consolação, 44",
+      "bairro": "Vila Nova",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "21418-661",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": true,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-01-16T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp014",
+    "nome": "Bruna Carvalho",
+    "cpf": "000.000.014-14",
+    "email": "Bruna.Carvalho@email.com",
+    "telefone": "+55 33 96034-1715",
+    "data_nascimento": "1981-06-28",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua 7 de Setembro, 320",
+      "bairro": "Santo André",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "33383-854",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-02-15T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp015",
+    "nome": "Felipe Souza",
+    "cpf": "000.000.015-15",
+    "email": "Felipe.Souza@email.com",
+    "telefone": "+55 47 95814-1752",
+    "data_nascimento": "1988-06-08",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Brasil, 201",
+      "bairro": "Boa Vista",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "cep": "30990-595",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-03-01T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp016",
+    "nome": "Isabela Gomes",
+    "cpf": "000.000.016-16",
+    "email": "Isabela.Gomes@email.com",
+    "telefone": "+55 82 97489-1789",
+    "data_nascimento": "1973-01-04",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua XV de Novembro, 127",
+      "bairro": "Liberdade",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "cep": "96574-265",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês",
+        "Espanhol"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-04-16T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp017",
+    "nome": "Rodrigo Ribeiro",
+    "cpf": "000.000.017-17",
+    "email": "Rodrigo.Ribeiro@email.com",
+    "telefone": "+55 39 97631-1826",
+    "data_nascimento": "1983-06-12",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Getúlio Vargas, 125",
+      "bairro": "Moema",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "cep": "35425-479",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": true,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-05-15T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp018",
+    "nome": "Natalia Mendes",
+    "cpf": "000.000.018-18",
+    "email": "Natalia.Mendes@email.com",
+    "telefone": "+55 34 98508-1863",
+    "data_nascimento": "2001-04-14",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua Marechal Deodoro, 289",
+      "bairro": "Pinheiros",
+      "cidade": "Recife",
+      "estado": "PE",
+      "cep": "26283-494",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-06-13T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp019",
+    "nome": "Thiago Barbosa",
+    "cpf": "000.000.019-19",
+    "email": "Thiago.Barbosa@email.com",
+    "telefone": "+55 62 93931-1900",
+    "data_nascimento": "1983-06-20",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Dom Pedro II, 894",
+      "bairro": "Lapa",
+      "cidade": "Manaus",
+      "estado": "AM",
+      "cep": "55932-102",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Espanhol"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": false,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-07-06T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp020",
+    "nome": "Amanda Dias",
+    "cpf": "000.000.020-20",
+    "email": "Amanda.Dias@email.com",
+    "telefone": "+55 53 93853-1937",
+    "data_nascimento": "1997-06-21",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua das Acácias, 894",
+      "bairro": "Copacabana",
+      "cidade": "Brasília",
+      "estado": "DF",
+      "cep": "20936-567",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-08-08T03:00:00.000Z\"}",
+    "ativo": false
+  },
+  {
+    "id": "hsp021",
+    "nome": "Leandro Freitas",
+    "cpf": "000.000.021-21",
+    "email": "Leandro.Freitas@email.com",
+    "telefone": "+55 68 94557-1974",
+    "data_nascimento": "1983-07-07",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua das Flores, 83",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "43591-537",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": true,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-09-04T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp022",
+    "nome": "Patricia Cardoso",
+    "cpf": "000.000.022-22",
+    "email": "Patricia.Cardoso@email.com",
+    "telefone": "+55 36 97752-2011",
+    "data_nascimento": "1980-08-18",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Paulista, 498",
+      "bairro": "Jardim América",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "39615-151",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-10-21T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp023",
+    "nome": "Vinicius Araujo",
+    "cpf": "000.000.023-23",
+    "email": "Vinicius.Araujo@email.com",
+    "telefone": "+55 59 91874-2048",
+    "data_nascimento": "1983-09-07",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua da Consolação, 315",
+      "bairro": "Vila Nova",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "16269-547",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-11-18T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp024",
+    "nome": "Renata Melo",
+    "cpf": "000.000.024-24",
+    "email": "Renata.Melo@email.com",
+    "telefone": "+55 13 92316-2085",
+    "data_nascimento": "1991-02-22",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua 7 de Setembro, 176",
+      "bairro": "Santo André",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "18494-280",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-12-26T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp025",
+    "nome": "Eduardo Cunha",
+    "cpf": "000.000.025-25",
+    "email": "Eduardo.Cunha@email.com",
+    "telefone": "+55 30 98392-2122",
+    "data_nascimento": "1972-11-10",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Brasil, 591",
+      "bairro": "Boa Vista",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "cep": "58475-135",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": true,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-01-01T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp026",
+    "nome": "Aline Teixeira",
+    "cpf": "000.000.026-26",
+    "email": "Aline.Teixeira@email.com",
+    "telefone": "+55 61 96300-2159",
+    "data_nascimento": "1997-01-26",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua XV de Novembro, 354",
+      "bairro": "Liberdade",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "cep": "81792-649",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-02-04T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp027",
+    "nome": "Marcelo Monteiro",
+    "cpf": "000.000.027-27",
+    "email": "Marcelo.Monteiro@email.com",
+    "telefone": "+55 39 99483-2196",
+    "data_nascimento": "1987-12-18",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Av. Getúlio Vargas, 265",
+      "bairro": "Moema",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "cep": "62351-878",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Espanhol"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-03-06T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp028",
+    "nome": "Tatiane Correia",
+    "cpf": "000.000.028-28",
+    "email": "Tatiane.Correia@email.com",
+    "telefone": "+55 88 98200-2233",
+    "data_nascimento": "1983-09-11",
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "rua": "Rua Marechal Deodoro, 234",
+      "bairro": "Pinheiros",
+      "cidade": "Recife",
+      "estado": "PE",
+      "cep": "35458-328",
+      "tipo_residencia": "casa"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês",
+        "Espanhol"
+      ],
+      "notificacoes_email": false,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-04-21T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp029",
+    "nome": "Bruno Nunes",
+    "cpf": "000.000.029-29",
+    "email": "Bruno.Nunes@email.com",
+    "telefone": "+55 23 96374-2270",
+    "data_nascimento": "1996-07-23",
+    "nacionalidade": "Argentino",
+    "endereco": {
+      "rua": "Av. Dom Pedro II, 427",
+      "bairro": "Lapa",
+      "cidade": "Manaus",
+      "estado": "AM",
+      "cep": "59034-211",
+      "tipo_residencia": "apartamento"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": true,
+      "tema": "claro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-05-21T03:00:00.000Z\"}",
+    "ativo": true
+  },
+  {
+    "id": "hsp030",
+    "nome": "Gabriela Moura",
+    "cpf": "000.000.030-30",
+    "email": "Gabriela.Moura@email.com",
+    "telefone": "+55 85 92474-2307",
+    "data_nascimento": "1976-06-14",
+    "nacionalidade": "Colombiano",
+    "endereco": {
+      "rua": "Rua das Acácias, 921",
+      "bairro": "Copacabana",
+      "cidade": "Brasília",
+      "estado": "DF",
+      "cep": "44525-807",
+      "tipo_residencia": "condomínio"
+    },
+    "preferencias": {
+      "idioma": [
+        "Português",
+        "Inglês"
+      ],
+      "notificacoes_email": true,
+      "notificacoes_sms": false,
+      "tema": "escuro"
+    },
+    "data_cadastro": "{\"$date\": \"2024-06-27T03:00:00.000Z\"}",
+    "ativo": true
+  }
+]
+

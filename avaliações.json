@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ObjectId('avl1777902746701')",
+    "id_reserva": "ObjectId('rsv1777902746543')",
+    "id_hospede": "ObjectId('hsp001')",
+    "nome_hospede": "Samuel Elvis",
+    "data_avaliacao": "2026-05-14",
+    "nota_geral": 4,
+    "categorias": {
+      "limpeza": 5,
+      "atendimento": 4,
+      "conforto": 4,
+      "custo_beneficio": 3
+    },
+    "comentario": "Ótima estadia, quarto limpo e bem localizado. Atendimento poderia ser mais ágil.",
+    "recomenda": true
+  },
+  {
+    "id": "ObjectId('avl1777902746702')",
+    "id_reserva": "ObjectId('rsv1777902746544')",
+    "id_hospede": "ObjectId('hsp002')",
+    "nome_hospede": "Ana Beatriz",
+    "data_avaliacao": "2026-05-20",
+    "nota_geral": 5,
+    "categorias": {
+      "limpeza": 5,
+      "atendimento": 5,
+      "conforto": 5,
+      "custo_beneficio": 4
+    },
+    "comentario": "Experiência incrível! Equipe muito atenciosa e quarto confortável. Voltarei com certeza.",
+    "recomenda": true
+  },
+  {
+    "id": "ObjectId('avl1777902746703')",
+    "id_reserva": "ObjectId('rsv1777902746545')",
+    "id_hospede": "ObjectId('hsp003')",
+    "nome_hospede": "Carlos Henrique",
+    "data_avaliacao": "2026-05-16",
+    "nota_geral": 3,
+    "categorias": {
+      "limpeza": 4,
+      "atendimento": 3,
+      "conforto": 3,
+      "custo_beneficio": 3
+    },
+    "comentario": "Estadia razoável. O quarto no andar alto como solicitado foi atendido, mas o conforto deixou a desejar.",
+    "recomenda": false
+  }
+]

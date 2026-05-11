@@ -1,0 +1,142 @@
+[
+  {
+    "_id": "ObjectId('svc001')",
+    "nome": "Café da manhã",
+    "categoria": "alimentacao",
+    "descricao": "Café da manhã completo em buffet no restaurante do hotel.",
+    "preco": 45.00,
+    "unidade": "pessoa",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "06:30",
+      "fim": "10:30"
+    },
+    "tags": ["buffet", "opcao_vegana", "incluso_suite"]
+  },
+  {
+    "_id": "ObjectId('svc002')",
+    "nome": "Jantar à la carte",
+    "categoria": "alimentacao",
+    "descricao": "Menu completo com pratos regionais e internacionais no restaurante principal.",
+    "preco": 120.00,
+    "unidade": "pessoa",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "19:00",
+      "fim": "23:00"
+    },
+    "tags": ["carta_de_vinhos", "reserva_recomendada"]
+  },
+  {
+    "_id": "ObjectId('svc003')",
+    "nome": "Room service",
+    "categoria": "alimentacao",
+    "descricao": "Refeições e lanches entregues diretamente no apartamento.",
+    "preco": 30.00,
+    "unidade": "pedido",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "00:00",
+      "fim": "23:59"
+    },
+    "tags": ["24h", "cardapio_reduzido"]
+  },
+  {
+    "_id": "ObjectId('svc004')",
+    "nome": "Piscina e solário",
+    "categoria": "lazer",
+    "descricao": "Acesso à piscina climatizada e área de espreguiçadeiras com toalhas inclusas.",
+    "preco": 0.00,
+    "unidade": "incluso",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "07:00",
+      "fim": "22:00"
+    },
+    "tags": ["incluso", "aquecida"]
+  },
+  {
+    "_id": "ObjectId('svc005')",
+    "nome": "Academia",
+    "categoria": "lazer",
+    "descricao": "Espaço fitness equipado com musculação e cardio.",
+    "preco": 0.00,
+    "unidade": "incluso",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "06:00",
+      "fim": "23:00"
+    },
+    "tags": ["incluso", "equipamentos_modernos"]
+  },
+  {
+    "_id": "ObjectId('svc006')",
+    "nome": "Passeio noturno estelar",
+    "categoria": "lazer",
+    "descricao": "Observação astronômica guiada com telescópio e carta celeste.",
+    "preco": 85.00,
+    "unidade": "pessoa",
+    "disponivel": false,
+    "horario_disponivel": {
+      "inicio": "21:00",
+      "fim": "23:00"
+    },
+    "tags": ["sazonal", "guiado", "max_15_pessoas"]
+  },
+  {
+    "_id": "ObjectId('svc007')",
+    "nome": "Apartamento deluxe",
+    "categoria": "hospedagem",
+    "descricao": "Quarto com vista panorâmica, cama king e banheira de imersão.",
+    "preco": 650.00,
+    "unidade": "noite",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "14:00",
+      "fim": "12:00"
+    },
+    "tags": ["cafe_incluso", "vista_panoramica", "banheira"]
+  },
+  {
+    "_id": "ObjectId('svc008')",
+    "nome": "Suite master",
+    "categoria": "hospedagem",
+    "descricao": "Suíte com sala de estar, varanda privativa e mordomia exclusiva.",
+    "preco": 1200.00,
+    "unidade": "noite",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "14:00",
+      "fim": "12:00"
+    },
+    "tags": ["mordomia", "varanda", "cafe_incluso", "transfer_incluso"]
+  },
+  {
+    "_id": "ObjectId('svc009')",
+    "nome": "Transfer aeroporto",
+    "categoria": "transporte",
+    "descricao": "Traslado executivo de e para o aeroporto em veículo climatizado.",
+    "preco": 180.00,
+    "unidade": "trecho",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "00:00",
+      "fim": "23:59"
+    },
+    "tags": ["24h", "executivo", "agendamento_previo"]
+  },
+  {
+    "_id": "ObjectId('svc010')",
+    "nome": "Massagem relaxante",
+    "categoria": "saude",
+    "descricao": "Sessão de 60 min de massagem sueca no spa do hotel.",
+    "preco": 200.00,
+    "unidade": "sessao",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "09:00",
+      "fim": "20:00"
+    },
+    "tags": ["spa", "agendamento_previo", "60min"]
+  }
+]
